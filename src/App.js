@@ -1,9 +1,15 @@
 import React from "react";
-import Nav from "../src/components/nav"
+import Header from "./components/header"
+import Input from "../src/components/input"
 
 function App() {
   return (
-    <Nav/>
+    <div>
+        <Header/>
+        <Input/>
+    </div>
+    
+
   );
 }
 
